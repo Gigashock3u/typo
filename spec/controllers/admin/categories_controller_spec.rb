@@ -18,7 +18,7 @@ describe Admin::CategoriesController do
 
   describe "test_edit" do
     before(:each) do
-      get :edit, :id => Factory(:category).id
+      get :edit , :id => Factory(:category).id
     end
 
     it 'should render template new' do
